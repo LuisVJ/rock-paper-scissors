@@ -14,6 +14,11 @@ h2 {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+button {
+    background-color: #9EB2D6;
+    margin: 6px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -26,12 +31,49 @@ h2 {
     font-size: large;
 }
 
+.player-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
 
+.computer-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
 
-test {
+.computer-icon {
+    text-align: center;
+}
+
+.player-icon {
+    text-align: center;
+}
+
+.select-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    height: 50px;
+    width:  auto;
+    display: block;
+}
+
+.mirror {
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+/* test {
     color: #BBD9D0;
     color: #4F6961;
     color: #465F8D;
     color: #54549E;
     color: #131322;
-}
+} */
