@@ -1,0 +1,37 @@
+body {
+    background-color: #131322;
+    color: #BBD9D0;
+}
+
+header {
+    margin: 1em auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'New Rocker', Georgia, serif;
+}
+
+h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: #a1bdb4;
+    color: #131322;
+    font-size: large;
+}
+
+
+
+test {
+    color: #BBD9D0;
+    color: #4F6961;
+    color: #465F8D;
+    color: #54549E;
+    color: #131322;
+}
