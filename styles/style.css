@@ -10,8 +10,13 @@ header {
     font-family: 'New Rocker', Georgia, serif;
 }
 
-h2 {
+h3 {
     font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 40px auto 40px auto;
 }
 
 button {
@@ -42,14 +47,18 @@ button:hover {
 .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
     max-width: 800px;
     padding: 25px;
-    margin: auto;
     background-color: #a1bdb4;
     color: #131322;
     font-size: large;
     border-radius: 10px;
+}
+
+.column {
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
 }
 
 .player-box {
@@ -57,6 +66,7 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     width: 200px;
+    height: 270px;
     border: 2px solid #54549E;
     border-radius: 10px;
 }
@@ -94,6 +104,33 @@ button:hover {
 .mirror {
     transform: rotateX(180deg);
     transform: rotateY(180deg);
+}
+
+.scores-box {
+    margin: 15px;
+    font-size: 40px;
+    font-family: 'New Rocker', Georgia, serif;
+    text-align: center;
+    color: #74499c;
+}
+
+#display {
+    align-items: center;
+    color: #572981;
+}
+
+#message {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#restart {
+    margin-bottom: 30px;
+    background-color: rgb(211, 196, 221);
+}
+#restart:active {
+    transform: scale(1);
 }
 
 test {

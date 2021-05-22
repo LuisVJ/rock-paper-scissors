@@ -14,45 +14,59 @@
 	<header>
 		<h1>Rock Paper Scissors</h1>
 	</header>
-	<div class="container">
-		<div class="player-box">
-      <div class="player-icon">
-        <h2>Player</h2>
-        <img src="./icons/player.png">
+  <div class="container column">
+    <div class="container">
+      <div class="player-box">
+        <div class="player-icon">
+          <h3>Player</h3>
+          <img src="./icons/player.png">
+        </div>
+        <div class="select-buttons">
+          <button>Rock
+            <img class="icon" src="./icons/rock.png">
+          </button>
+          <button>Paper
+            <img class="icon" src="./icons/paper.png">
+          </button>
+          <button>Scissors
+            <img class="icon" src="./icons/scissors.png">
+          </button>
+        </div>
       </div>
-			<div class="select-buttons">
-				<button>Rock
-          <img class="icon" src="./icons/rock.png">
-        </button>
-        <button>Paper
-          <img class="icon" src="./icons/paper.png">
-        </button>
-				<button>Scissors
-          <img class="icon" src="./icons/scissors.png">
-        </button>
-			</div>
-		</div>
-		<div class="scores-box">
-      <h2>Score</h2>
+      <div class="scores-box">
+        <h2>Score</h2>
+        <div>
+          <span id="player-score">0</span> - <span id="computer-score">0</span>
+        </div>
+      </div>
+      <div class="computer-box">
+        <div class="computer-icon">
+          <h3>Computer</h3>
+          <img src="./icons/computer.png">
+        </div>
+        <div class="select-buttons">
+          <button class="disabled">Rock
+            <img class="icon mirror" src="./icons/rock.png">
+          </button>
+          <button class="disabled">Paper
+            <img class="icon mirror" src="./icons/paper.png">
+          </button>
+          <button class="disabled">Scissors
+            <img class="icon mirror" src="./icons/scissors.png">
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="computer-box">
-      <div class="computer-icon">
-        <h2>Computer</h2>
-        <img src="./icons/computer.png">
+    <div id="display" class="container column">
+      <div id="message">
+        Placeholder
       </div>
-      <div class="select-buttons">
-				<button class="disabled">Rock
-          <img class="icon mirror" src="./icons/rock.png">
-        </button>
-        <button class="disabled">Paper
-          <img class="icon mirror" src="./icons/paper.png">
-        </button>
-				<button class="disabled">Scissors
-          <img class="icon mirror" src="./icons/scissors.png">
-        </button>
-      </div>
+      <button id="restart">
+        Play again
+      </button>
     </div>
-	</div>
+  </div>
+	
 	<!-- <script src="./scripts/script.js"></script> -->
 </body>
 </html>
