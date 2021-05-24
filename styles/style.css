@@ -25,7 +25,7 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+.btHover:hover {
     border: 2px solid #54549E;
     transform: scale(1.05);
 }
@@ -37,11 +37,13 @@ button:hover {
 .winner {
     border: 2px solid green;
     transform: scale(1.2);
+    background-color: #88e297;
 }
 
 .looser {
     border: 2px solid red;
     transform: scale(1.2);
+    background-color: #ef8c8c;
 }
 
 .container {
